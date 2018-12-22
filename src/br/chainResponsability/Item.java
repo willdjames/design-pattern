@@ -11,6 +11,9 @@ public class Item {
 	
 	}
 	
+	public double getValor() {
+		return valor;
+	}
 	
 
 }
