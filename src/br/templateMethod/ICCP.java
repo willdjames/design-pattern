@@ -3,7 +3,7 @@ package br.templateMethod;
 import br.strategy.Orcamento;
 
 public final class ICCP extends TemplateImpostoCondicional {
-
+	
 
 	@Override
 	protected double minimaTaxacao(Orcamento orcamento) {

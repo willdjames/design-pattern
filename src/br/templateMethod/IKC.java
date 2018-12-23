@@ -5,6 +5,8 @@ import br.strategy.Orcamento;
 
 public final class IKC extends TemplateImpostoCondicional {
 	
+	public IKC() {
+	}
 	
 	private boolean temAlgumItemAcimade100ReaisNo(Orcamento orcamento) {
 		for (Item i : orcamento.getItens()) {

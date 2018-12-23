@@ -3,7 +3,7 @@ package br.templateMethod;
 import br.strategy.Imposto;
 import br.strategy.Orcamento;
 
-public abstract class TemplateImpostoCondicional implements Imposto {
+public abstract class TemplateImpostoCondicional extends br.decorator.Imposto implements Imposto {
 
 	
 	/**
