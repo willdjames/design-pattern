@@ -24,7 +24,7 @@ public class NotaFiscal {
 		
 	}
 	
-	double getTotalValorItens() {
+	public double getTotalValorItens() {
 		double total = 0.0;
 		for (Item item : this.itens) {
 			total += item.getValor();
