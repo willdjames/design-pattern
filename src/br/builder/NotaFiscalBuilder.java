@@ -18,10 +18,11 @@ public class NotaFiscalBuilder {
 	private List<AcaoAposGerarNota> todasAcoesASeremExecutadas;
 	
 //	Varargs ...
-	public void adicionaAcao(AcaoAposGerarNota... acao) {
+	public NotaFiscalBuilder adicionaAcao(AcaoAposGerarNota... acao) {
 		for (AcaoAposGerarNota i : acao) {
 			this.todasAcoesASeremExecutadas.add(i);
 		}
+		return this;
 	}
 	
 	public NotaFiscalBuilder() {
