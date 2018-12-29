@@ -1,6 +1,6 @@
 package br.strategy;
 
-public class TesteStrategy {
+public class TestStrategy {
 
 	public static void main(String[] args) {
 
